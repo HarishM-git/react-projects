@@ -11,6 +11,7 @@ function App() {
           Edit <code>src/App.js</code> and save to reload.
         </p>
         {/* <p>comment</p> */}
+        <p>harish is a fullstack developer and till date he the highest paid developer in the world </p>
         <a
           className="App-link"
           href="https://reactjs.org"
