@@ -4,7 +4,7 @@ import React from 'react'
 const Header = () => {
   return (
     <header>
-      <h1>TO DO LIST</h1>
+      <div><h1>TO DO LIST</h1></div>
 
     </header>
    

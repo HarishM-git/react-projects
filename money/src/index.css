@@ -35,9 +35,11 @@ header {
   background-color: mediumblue;
   color: rgb(198, 221, 242);
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  text-align: center;
+  justify-content: center;
+  
+
+  
+
 }
 
 main {
