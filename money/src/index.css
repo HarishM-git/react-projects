@@ -9,7 +9,8 @@ html {
 }
 
 body {
-  min-height: 100vh;
+  height: 10000px;
+  padding-top: 55px;
   font-family: 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -36,6 +37,8 @@ header {
   color: rgb(198, 221, 242);
   display: flex;
   justify-content: center;
+  position: fixed;
+  top: 0px;
   
 
   
@@ -44,13 +47,20 @@ header {
 
 main {
   width: 100%;
+  height: 500px;
   
   display: flex;
   flex-direction: column;
   flex-grow: 1;
   justify-content: center;
   align-items: center;
+
+
   overflow-y: auto;
+  border-width: 2px;
+  border-style: solid;
+
+  
 
 }
 
@@ -61,6 +71,6 @@ footer {
   color: aliceblue;
   display: grid;
   place-content: center;
-  position: absolute;
+  position: fixed;
   bottom:0px;
 }
