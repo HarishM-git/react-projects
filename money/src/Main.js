@@ -2,23 +2,27 @@ import React from 'react'
 import { useState } from 'react'
 
 const Main = () => {
-  function adida(){
-    setCount(count+1)
-  }
-  function odada(){
-    setCount(count-1)
-  }
 
-  const [count,setCount]=useState(0)
+
+  
+  const [name,setName]=useState('hello');
+
+  
+  function change(){
+    setName((hello)=>{
+      const vane=['developer','hacker','scientist','entrupuner'];
+      let int= Math.floor(Math.random()*4) 
+      return vane[int];
+    })
+  }
 
 
   return (
     <main>
       
       <div><p>main</p></div>
-      <button onClick={adida}>+</button>
-      <div>{count}</div>
-      <button onClick={odada}>-</button>
+      <button onClick={change}>subscribe</button>
+      <div> Harish is a {name}</div>
     </main>
   )
 }
