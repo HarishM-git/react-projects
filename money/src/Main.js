@@ -5,7 +5,7 @@ const Main = () => {
 
 
   
-  const [name,setName]=useState('hello');
+  const [name,setName]=useState('critical thinker');
 
   
   function change(){
