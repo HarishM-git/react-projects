@@ -5,7 +5,7 @@ const Main = () => {
 
 
   
-  const [name,setName]=useState('critical thinker');
+  {/*const [name,setName]=useState('critical thinker');
 
   
   function change(){
@@ -15,14 +15,14 @@ const Main = () => {
       return vane[int];
     })
   }
-
+*/}
 
   return (
     <main>
       
-      <div><p>main</p></div>
+      {/*<div><p>main</p></div>
       <button onClick={change}>subscribe</button>
-      <div> Harish is a {name}</div>
+  <div> Harish is a {name}</div>*/}
     </main>
   )
 }
