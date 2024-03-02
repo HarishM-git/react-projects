@@ -2,8 +2,6 @@ import React from 'react'
 import { useState } from 'react'
 
 const Main = () => {
-
-
   
   {/*const [name,setName]=useState('critical thinker');
 
