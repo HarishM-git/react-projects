@@ -1,8 +1,8 @@
 import './index.css'
 import Header from './Header';
-import Main from './Main';
-import Footer from './Footer';
 
+import Footer from './Footer';
+import Content from './Content';
 
 
 import bootstrap from 'bootstrap';
@@ -11,7 +11,7 @@ import bootstrap from 'bootstrap';
 function App() {
   return (
       <div className=''> <Header/>
-      <Main></Main>
+      <Content/>
       <Footer></Footer>
       </div>
        

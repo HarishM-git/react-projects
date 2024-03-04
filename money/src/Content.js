@@ -1,19 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
 
-const Main = () => {
-  
-  {/*const [name,setName]=useState('critical thinker');
 
-  
-  function change(){
-    setName((hello)=>{
-      const vane=['developer','hacker','scientist','entrupuner'];
-      let int= Math.floor(Math.random()*4) 
-      return vane[int];
-    })
-  }
-*/}
 
 
 const Content=()=>{
@@ -33,9 +21,9 @@ const Content=()=>{
       checked:false,
       label:'go to GYM'
     }
-  ])
+  ]);
 
-}
+
     
 
 
@@ -64,4 +52,4 @@ const Content=()=>{
   )
 }
 
-export default Main
+export default Content
