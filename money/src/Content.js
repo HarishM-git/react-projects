@@ -28,22 +28,20 @@ const Content = () => {
 
 
   return (
-  
-      
- 
+    <main>
+     {items.map((item)=>{
+      return(
+        <ul>
+          <li>
+            <input type="checkbox" name="check" id={item.id} />
+            <label>{item.label}</label>
+            <button>delete</button>
+          </li>
 
-
-    <ul>
-      {items.map((item)=>{
-        <li>
-          <input type="checkbox" checked={item.checked} />
-          <label htmlFor="">{item.label}</label>
-          <button>delete</button>
-        </li>
-      })}
-    </ul>
-
- 
+        </ul>
+      )
+     })}
+    </main>
   )
 }
 
