@@ -1,5 +1,7 @@
 import React from 'react';
 import {useState} from 'react';
+import { FaTrashCanArrowUp } from "react-icons/fa6";
+import { IoMdTrash } from "react-icons/io";
 
 
 const Content = () => {
@@ -36,7 +38,7 @@ const Content = () => {
           <li>
             <input type="checkbox" name="check" id={item.id} />
             <label>{item.label}</label>
-            <button>delete</button>
+            <span><IoMdTrash /></span>
           </li>
 
         </ul>
