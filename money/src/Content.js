@@ -38,7 +38,7 @@ const Content = () => {
           <li>
             <input type="checkbox" name="check" id={item.id} />
             <label>{item.label}</label>
-            <span><IoMdTrash /></span>
+            <span><IoMdTrash role='button' tabIndex={0} /></span>
           </li>
 
         </ul>
