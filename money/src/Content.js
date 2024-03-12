@@ -37,7 +37,7 @@ const Content = () => {
           <ul >
           <li   key={item.id}>
             <div className='flex'>
-              <input type="checkbox" name="check" id={item.id} />
+              <input className='checkbox'type="checkbox" name="check" id={item.id} />
               <label>{item.label}</label>
             <span><IoMdTrash role='button' tabIndex={0} /></span>
             
