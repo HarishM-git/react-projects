@@ -1,6 +1,5 @@
 import React from 'react';
 import {useState} from 'react';
-import { FaTrashCanArrowUp } from "react-icons/fa6";
 import { IoMdTrash } from "react-icons/io";
 
 
@@ -37,9 +36,9 @@ const Content = () => {
           <ul >
           <li   key={item.id}>
             <div className='flex'>
-              <input className='checkbox'type="checkbox" name="check" id={item.id} />
-              <label>{item.label}</label>
-            <span><IoMdTrash role='button' tabIndex={0} /></span>
+              <div><input className='checkbox'type="checkbox" name="check" id={item.id} /></div>
+              <div><label>{item.label}</label></div>
+            <div><IoMdTrash role='button' tabIndex={0} /></div>
             
             </div>
           </li>

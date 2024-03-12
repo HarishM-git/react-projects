@@ -9,6 +9,7 @@ html {
 }
 
 body {
+  background-color:chocolate;
   height: 1000px;
   padding-top: 55px;
   font-family: 'Roboto', 'Oxygen',
