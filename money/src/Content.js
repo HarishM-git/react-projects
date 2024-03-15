@@ -12,20 +12,26 @@ const Content = () => {
       label:'practice coding'
     },
     {
-      id:1,
+      id:2,
       checked:true,
       label:'eat HEALTHY'
     },
     {
-      id:1,
+      id:3,
       checked:false,
       label:'go to GYM'
     }
   ]);
 
- 
-    
 
+ 
+  const handlecheck=(id)=>{
+    const listItem=items.map((item)=>
+      item.id===id ? {...item,checked:!item.checked}:item
+      
+    )
+    setItems(listItem)
+   }
 
 
 
@@ -33,11 +39,18 @@ const Content = () => {
   return (
     <main >
      {items.map((item)=>{
+    
+  
       return(
           <ul >
           <li className='item'   key={item.id}>
             
-              <input className='checkbox'type="checkbox" name="check" id={item.id} />
+              <input 
+              className='checkbox'
+              type="checkbox" 
+              name="check" 
+              id={item.id} 
+              onChange={()=>handlecheck(item.id)} />
               <label>{item.label}</label>
             <IoMdTrash role='button' tabIndex={0} />
             
