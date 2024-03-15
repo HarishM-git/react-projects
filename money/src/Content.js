@@ -35,13 +35,13 @@ const Content = () => {
      {items.map((item)=>{
       return(
           <ul >
-          <li   key={item.id}>
-            <div className='flex'>
-              <div><input className='checkbox'type="checkbox" name="check" id={item.id} /></div>
-              <div><label>{item.label}</label></div>
-            <div><IoMdTrash role='button' tabIndex={0} /></div>
+          <li className='item'   key={item.id}>
             
-            </div>
+              <input className='checkbox'type="checkbox" name="check" id={item.id} />
+              <label>{item.label}</label>
+            <IoMdTrash role='button' tabIndex={0} />
+            
+            
           </li>
 
         </ul>
