@@ -4,3 +4,5 @@ h=re.findall('10+1',a)
 print(h)
 
 
+
+
