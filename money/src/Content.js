@@ -53,7 +53,7 @@ const deleteList=(id)=>{
   
       return(
         <ul key={item.id} >
-          <li className='item'   key={item.id}>
+          <li className='item'   >
             
             
               <input 
