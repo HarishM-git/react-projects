@@ -60,6 +60,7 @@ const deleteList=(id)=>{
               className='checkbox'
               type="checkbox" 
               name="check" 
+              
               id={item.id} 
               onChange={()=>handleCheck(item.id)} />
               <label
